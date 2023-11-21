@@ -1,0 +1,37 @@
+
+/*DIV DESTAQUE*/
+.destaque {
+    display: flex;;
+}
+
+/*DIV TEXTO*/
+.destaque-div1 {
+    width: 50%;
+    padding: 10%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: beige;
+    height: 100vh;
+}
+
+.destaque-titulo {
+    font-family: 'Barlow', sans-serif;
+    font-size: 34pt;
+    padding-bottom: 34pt;
+}
+
+.destaque-texto {
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 14pt;
+}
+
+/*DIV IMAGEM*/
+.destaque-div2 {
+    flex:1;
+    height: 100vh;
+    background-image: url('uma-pintura-de-um-lago-de-montanha-com-uma-montanha-ao-fundo_188544-9126.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
