@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAMA,OALI,YAAA,CACA,sBAAA,CACA","file":"style.css","sourceRoot":"..\\style","sourcesContent":["@mixin splash() {\r\n    height: 100vh;\r\n    justify-content: center;\r\n    color: white;\r\n}\r\n\r\n#teste {\r\n    @include splash;\r\n}"]}

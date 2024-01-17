@@ -1,0 +1,33 @@
+1. INTRO
+
+    - splash: imagem ocupando tela inteira
+
+2. INFORMAÇÕES ADICIONAIS
+
+3. POEMAS DE UMA LINHA SÓ
+
+4. O VERBO PRECISA DE AR
+
+
+. HEADER
+
+. FOOTER
+
+. MENU
+
+
+        -- PROJETO
+
+    -- INTRO
+
+div splash
+    imagem
+        h = 100%
+    elelemtos
+        todos no centro
+
+
+
+
+
+-- DÚVIDAS

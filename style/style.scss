@@ -1,0 +1,9 @@
+@mixin splash() {
+    height: 100vh;
+    justify-content: center;
+    color: white;
+}
+
+#teste {
+    @include splash;
+}
