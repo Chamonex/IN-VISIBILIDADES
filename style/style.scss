@@ -1,9 +1,39 @@
+$azul-escuro: rgb(33, 67, 81);
+$carne: rgb(253, 181, 202);
+$bege: rgb(254, 244, 239);
+$branco: rgb(255, 255, 255);
+
 @mixin splash() {
     height: 100vh;
-    justify-content: center;
-    color: white;
+    // background
 }
 
-#teste {
-    @include splash;
+@mixin centro() {
+    height: 30vh;
+
+}
+
+@mixin metade() {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    // TESTANDO
+    .metade-img {
+        background-color: $azul-escuro;
+        width: 50vw;
+    }
+    
+    .metade-txt {
+        display: block;
+        background-color: $bege;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 100px;
+        width: 50vw;
+    }
+}
+
+.metade {
+    @include metade;
 }
