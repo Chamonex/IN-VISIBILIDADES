@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap');
+
+// CORES
+$azul-escuro: rgb(33, 67, 81);
+$carne: rgb(253, 181, 202);
+$bege: rgb(254, 244, 239);
+$branco: rgb(255, 255, 255);
+
+
+// FONTES
+@mixin titulo-1() {
+    font-family: 'Barlow', sans-serif;
+    font-size: 34pt;
+    font-weight: 500;
+    text-align: left;
+
+    margin-bottom: 2.64rem;
+    line-height: 2.3rem;
+
+    .inicial{
+        margin-bottom: none;
+    }
+
+}
+
+@mixin titulo-splash() {
+    font-family: 'Barlow', sans-serif;
+    font-size: 44pt;
+    font-weight: 500;
+    text-align: right;
+    
+    line-height: 2rem;
+}
+
+@mixin normal-1() {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+    text-align: left;
+    line-height: 2.3rem;
+    padding-bottom: 2.64rem;
+}
+
+@mixin normal-2() {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24pt;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+// FILTRO
+@mixin filtro() {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: inherit;
+    flex-flow: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    
+    #filtro {
+        @include v.filtro;
+    }
+    
+}

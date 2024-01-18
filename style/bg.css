@@ -1,0 +1,15 @@
+.metade .metade-img {
+    /*background image*/
+    background-image: url(../source/Assets/inicial_foto_titulo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#inicio {
+    background-image: url(../source/Assets/inicial_foto_titulo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 110%;
+    
+}

@@ -1,6 +1,9 @@
 1. INTRO
 
-    - splash: imagem ocupando tela inteira
+    -> script para trocar o lado
+    -> tamanho para imagens
+    -> background image
+    -> formatação de texto %
 
 2. INFORMAÇÕES ADICIONAIS
 
