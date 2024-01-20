@@ -19,17 +19,17 @@
     height: 40vh;
     display: flex;
     margin-left: 10vw;
-    margin-right: 10vh;
+    margin-right: 10vw;
     margin-top: 4vh;
     margin-bottom: 4vh;
     flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
+    background-color: v.$branco;
     
     .centro-txt {
         display: block;
         width: 40vw;
-        background-color: v.$branco;
         color: v.$azul-escuro;
     }
 
@@ -43,12 +43,16 @@
     }
 }
 
-@mixin metade() {
+@mixin metade($reverse: false) {
     display: flex;
     flex-flow: row nowrap;
     height: 100vh;
     width: 100%;
     background-color: v.$bege;
+    
+    @if $reverse {
+        flex-flow: row-reverse nowrap;
+    }
 
     .metade-txt {
         margin-top: auto;
@@ -83,4 +87,7 @@
 
 .metade {
     @include metade;
+}
+.metade-reverse {
+    @include metade(true);
 }

@@ -1,9 +1,13 @@
 1. INTRO
 
-    -> script para trocar o lado
     -> tamanho para imagens
+    -> header
+    -> formatar textos grandes têm que caber
+
+    MELHORIAS
     -> background image
     -> formatação de texto %
+
 
 2. INFORMAÇÕES ADICIONAIS
 

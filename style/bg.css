@@ -1,15 +1,30 @@
-.metade .metade-img {
-    /*background image*/
+#inicio {
+    background-image: url(../source/Assets/inicial_foto_titulo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 110%;
+}
+
+#bg-home-1 {
+    /* METADE */
     background-image: url(../source/Assets/inicial_foto_titulo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-#inicio {
+#bg-home-2 {
+    /* METADE */
     background-image: url(../source/Assets/inicial_foto_titulo.png);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 110%;
-    
+    background-position: center;
+    background-size: cover;
+}
+
+#bg-informacoes-1 {
+    /* METADE */
+    background-image: url(../source/Assets/inicial_foto_titulo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

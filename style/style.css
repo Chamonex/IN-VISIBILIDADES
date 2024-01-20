@@ -3,17 +3,17 @@
   height: 40vh;
   display: flex;
   margin-left: 10vw;
-  margin-right: 10vh;
+  margin-right: 10vw;
   margin-top: 4vh;
   margin-bottom: 4vh;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: space-between;
+  background-color: rgb(255, 255, 255);
 }
 .centro .centro-txt {
   display: block;
   width: 40vw;
-  background-color: rgb(255, 255, 255);
   color: rgb(33, 67, 81);
 }
 .centro img {
@@ -21,6 +21,7 @@
 }
 .centro p {
   font-family: "Barlow", sans-serif;
+  color: rgb(33, 67, 81);
   font-size: 14pt;
   font-weight: 400;
   text-align: left;
@@ -57,6 +58,7 @@
 }
 .metade .metade-txt h1 {
   font-family: "Barlow", sans-serif;
+  color: rgb(33, 67, 81);
   font-size: 34pt;
   font-weight: 500;
   text-align: left;
@@ -68,6 +70,7 @@
 }
 .metade .metade-txt p {
   font-family: "Barlow", sans-serif;
+  color: rgb(33, 67, 81);
   font-size: 14pt;
   font-weight: 400;
   text-align: left;
@@ -75,6 +78,47 @@
   padding-bottom: 2.64rem;
 }
 .metade .metade-img {
+  width: 50%;
+}
+
+.metade-reverse {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(254, 244, 239);
+  flex-flow: row-reverse nowrap;
+}
+.metade-reverse .metade-txt {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  width: 50%;
+  box-sizing: border-box;
+}
+.metade-reverse .metade-txt h1 {
+  font-family: "Barlow", sans-serif;
+  color: rgb(33, 67, 81);
+  font-size: 34pt;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 2.64rem;
+  line-height: 2.3rem;
+}
+.metade-reverse .metade-txt h1 .inicial {
+  margin-bottom: none;
+}
+.metade-reverse .metade-txt p {
+  font-family: "Barlow", sans-serif;
+  color: rgb(33, 67, 81);
+  font-size: 14pt;
+  font-weight: 400;
+  text-align: left;
+  line-height: 2.3rem;
+  padding-bottom: 2.64rem;
+}
+.metade-reverse .metade-img {
   width: 50%;
 }
 
