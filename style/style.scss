@@ -77,6 +77,28 @@
     }
 }
 
+@mixin texto() {
+
+    background-color: v.$branco;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    
+    h1 {
+        @include v.titulo-1;
+    }
+
+    p {
+        @include v.normal-1;
+    }
+}
+
+
+.texto {
+    @include texto;
+}
+
 .centro {
     @include centro;
 }

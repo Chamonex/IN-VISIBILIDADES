@@ -1,4 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&display=swap");
+.texto {
+  background-color: rgb(255, 255, 255);
+  padding-top: 8vh;
+  padding-bottom: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.texto h1 {
+  font-family: "Barlow", sans-serif;
+  color: rgb(33, 67, 81);
+  font-size: 34pt;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 2.64rem;
+  line-height: 2.3rem;
+}
+.texto h1 .inicial {
+  margin-bottom: none;
+}
+.texto p {
+  font-family: "Barlow", sans-serif;
+  color: rgb(33, 67, 81);
+  font-size: 14pt;
+  font-weight: 400;
+  text-align: left;
+  line-height: 2.3rem;
+  padding-bottom: 2.64rem;
+}
+
 .centro {
   height: 40vh;
   display: flex;
